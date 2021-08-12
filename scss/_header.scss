@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    width: 100%;
+    
+
+    li{
+        list-style: none;
+    }
+    .header_logo{
+        width: 15%;
+        height: 150px;
+    }
+    #btn_menu{
+        display:none;
+        margin-right: 500px;
+        }
+        label{
+            display: none;
+            width: 30px;
+            height: 30px;
+            padding:10px;
+        }
+        li{
+            flex-wrap: 1;
+        }
+        .header_menu{
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+
+        }
+        .header_linksDeNavegacion {
+            text-decoration: none;
+            color: white;
+            padding: 5px 20px;
+            font-size: 18px;
+            display: block;
+
+        }
+
+        .header_linksDeNavegacion--over:hover {
+            color: red;
+            transition: all 0.4s;
+        }
+
+        .header_subitems {
+            display: none;
+            position: absolute;
+        }
+
+        li:hover>ul {
+            display: block;
+            transition: all 0.4s;
+
+            .header_columnaDeNav {
+                display: flex;
+                background-color: black;
+
+                ul {
+                    list-style: none;
+                }
+
+                .header_subitemsproductos {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 80px;
+                    display: block;
+                    transition: all 0.4s;
+                }
+
+                .header_subitems--over:hover {
+                    color: red;
+                    background-color: white;
+                }
+
+                .header_subitemsTitulo {
+                    color: red;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 10px 80px;
+                    display: block;
+                    transition: all 0.4s;
+                }
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        header label {
+            display: block;
+        }
+        .menu {
+            position: absolute;
+            background:black;
+            width: 100%;
+            margin-left: -100%;
+            transition: all .2s;
+            text-align: center;
+        }
+        li{
+            padding: 10px;
+        }
+        .menu ul{
+            flex-direction: column;
+        }
+        #btn_menu:checked ~ .menu{
+            margin: 0;
+        }
+        
+        img{
+            width: 40%;
+            height: 120px;
+        }
+        .boton{
+        margin-left: 75%;
+        margin-top: -80px;
+        position: absolute;
+        font-size:40px;
+        color: white;
+        
+    }
+    .tamaño_carusel{
+        height:400px;
+        width: 100%;
+    }
+    
+    }

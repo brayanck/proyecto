@@ -1,0 +1,33 @@
+fieldset{
+    width: 400px;
+    height: 700px;
+    margin: 50px auto;
+    margin-bottom: 50px;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    border: 10px solid red;
+    .formulario_titulo{
+        font-size:40px;
+    }
+    form{
+        text-align: center;
+    font-size: 20px;
+    margin: 40px 20px 20px 20px;
+    .condiciones {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .crear {
+        font-size: 13px;
+        text-decoration: underline;
+        margin: 0px;
+        color: red;
+    }
+    .TextRegistro {
+        margin-top: 12px;
+        font-size: 13px;
+    }
+    }
+}

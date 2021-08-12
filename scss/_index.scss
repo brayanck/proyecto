@@ -1,0 +1,106 @@
+
+
+.pagina_titulos {
+    color: red;
+    margin: 50px 250px 0px;
+}
+.pagina_ProductosPromocionados {
+    width: 100%;
+    display: flex;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 10px;
+    border: 5px solid red;
+    margin-bottom: 30px;
+    .pagina_card {
+        width: 100%;
+        margin: 20px;
+        border-radius: 6px;
+        overflow: hidden;
+        background-color: white;
+        cursor: default;
+        transition: all 0.4s eYase;
+        border: 2px solid red;
+        .card_contenido{
+            padding: 15px;
+            text-align: center;
+            .card_boton{
+                text-decoration: none;
+                color: $colordeletrasdelinks;
+                background-color: red;
+                padding:10px;
+                display: inline-block;
+                margin-top: 10px;
+                border-radius: 15px;
+                font-size: 18px;                
+            }
+            .card_boton:hover{
+                background-color: rgb(214, 13, 13);
+            }
+        }
+    }
+    .pagina_card:hover{
+        box-shadow: 5px 5px 20px red;
+        transform: translateY(-15px);
+    }
+    img{
+            height: 300px;
+            width: 100%;
+        }
+}
+
+@media (max-width: 768px) {
+    .pagina_titulos {
+        color: red;
+        margin: auto auto;
+    }
+    .pagina_ProductosPromocionados {
+        width: 80%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        border-radius: 10px;
+        border: 5px solid red;
+        margin-bottom: 30px;
+        flex-direction: column;
+        .pagina_card {
+            width: 80%;
+            margin-left: auto; 
+            margin-right: auto;
+            border-radius: 6px;
+            overflow: hidden;
+            background-color: white;
+            cursor: default;
+            transition: all 0.4s eYase;
+            border: 2px solid red;
+            .card_contenido{
+                padding: 15px;
+                text-align: center;
+                .card_boton{
+                    text-decoration: none;
+                    color: $colordeletrasdelinks;
+                    background-color: red;
+                    padding:10px;
+                    display: inline-block;
+                    margin-top: 10px;
+                    border-radius: 15px;
+                    font-size: 18px;                
+                }
+                .card_boton:hover{
+                    background-color: rgb(214, 13, 13);
+                }
+            }
+        }
+        .pagina_card:hover{
+            box-shadow: 5px 5px 20px red;
+            transform: translateY(-15px);
+        }
+        img{
+                height: 100%;
+                width: 100%;
+            }
+    }
+}

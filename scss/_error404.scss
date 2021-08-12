@@ -1,0 +1,34 @@
+
+.contenido_error{
+    margin-top: 200px;
+    margin-left: 200px;
+    display:flex;
+    .error_title{
+    font-size: 150px;
+    color: red;
+    display: flex;
+    }
+    p{
+        font-size: 50px;
+    }
+    button{
+        color:white;
+        background:red;
+        width: 200px;
+        margin-left: 200px;
+        a{
+            font-size: 20px;
+            color:white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    .imagen_error{
+    width: 500px;
+    height: 500px;
+    margin: 100px 200px;
+    display: flex;
+}
+}

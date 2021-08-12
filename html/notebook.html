@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d3b59df5b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../scss/style.css">
+    <title>NOTEBOOKS-XTROUG GAMING</title>
+</head>
+
+<body> 
+    <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
+    <header>
+        <a class="header_logo" href="">
+            <img src="../imagenes/LOGO ORIGINAL.JPG" alt="">
+        </a>
+
+        <input type="checkbox" id="btn_menu">
+        <label class="boton" for="btn_menu"><i class="fas fa-bars"></i></label>
+        <nav class="menu">
+            <ul class="header_menu">
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">productos</a>
+                    <ul class="header_subitems">
+                        <div class="header_columnaDeNav">
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/micro procesador.html">micro
+                                            procesador</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/procesadorAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/procesadorIntel.html">intel</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/motherBoard.html">mother board</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/motherBoardAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/motherBoardIntel.html">intel</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/memoriaRam.html">memoria ram</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/memoriaRamPc.html">para pc</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/memoriaRamNotebook.html">para
+                                            notebook</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/placasDeVideo.html">placas de
+                                            video</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/procesadorAmd.html">amd
+                                            radeon</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/placasDeVideoNvidia.html">Nvidia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/almacenamiento.html">almacenamiento</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/discoRigidoHdd.html">disco rigido
+                                            hdd para pc</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/discoSolidoSsd.html">disco solido
+                                            ssd internos</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/pendrives.html">
+                                            pendrives</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/refrigeracion.html">refrigeracion</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/airColing.html">air
+                                            cooling</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/refrigeracionLiquida.html">water
+                                            cooling</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/pasta termica.html">pasta
+                                            termica</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/accesorios.html">accesorios</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/televisores.html">televisores</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/fuentes.html">fuente</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/fuentesSinCertificacion.html">sin
+                                            certificacion</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/fuente80PlusWhite.html">80 plus
+                                            white</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/fuente80PlusBronce.html">80 plus
+                                            bronce</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/fuente80plusGold.html">80 plus
+                                            gold</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/gabinete.html">gabinete</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/gabineteFullTower.html">full
+                                            tower</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/gabineteMidTower.html">mid tower</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="productos/gabineteMiniTower.html">mini
+                                            tower</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="productos/sillas.html">sillas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="Perifericos.html">perifericos</a>
+                    <ul class="header_subitems">
+                        <div class="header_columnaDeNav">
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/teclado.html">teclado </a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/tecladoMecanico.html">teclado de
+                                            mecanico</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/tecladoMembrana.html">teclado de
+                                            membrana</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/comboTeclado.html">combo de
+                                            teclado</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/mause.html">mause</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/mauseOptico.html">mause
+                                            optico</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/mauseLaser.html">mause
+                                            laser</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/mausePad.html">pad</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/mausePadSmall.html">pad small</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mausePadMidium.html">pad
+                                            medium</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/mausePadLarge.html">pad large</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/auriculares.html">auriculares</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/auricularesEstereo.html">estereos</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/auricularessurround.html">surround</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/microfonos.html">microfono</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="perifericos/monitor.html">monitor</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/monitor165hz.html">monito de
+                                            165hz</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/monitor144hz.html">monitor de
+                                            144hz</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="perifericos/monitorLed.html">monitor
+                                            led</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="ComboActualizacion.html">combo actualizacion</a>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="notebook.html">notebooks</a></li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="IniciarSesion.html">iniciar secion</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <br>
+    <!----------------------------pagina-------------------------------->
+    <div class="conteiner_productos">
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook Lenovo 14 AMD Pro A4-4350B 4GB 500GB DOS.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 54.499$</h4>
+                <a class="nombre_producto" href="#">Notebook Lenovo 14" AMD Pro A4-4350B 4GB 500GB DOS </a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_HP_14__Ryzen_3_3250U_4GB_1TB_Win10_US.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 71.599$</h4>
+                <a class="nombre_producto" href="#">Notebook HP 14" Ryzen 3 3250U 4GB 1TB Win10 US</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_HP_240_14__Core_i3-1005G1_4GB_1TB_FreeDos_US_.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 76.800$</h4>
+                <a class="nombre_producto" href="#">Notebook HP 240 14" Core i3-1005G1 4GB 1TB FreeDos US</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_HDC_HY_15.6_FHD__Core_i3_1005G_8GB_SSD_256GB_Win_10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 78.000$</h4>
+                <a class="nombre_producto" href="#">Notebook HDC HY 15.6"FHD Core i3 1005G 8GB SSD 256GB Win 10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_Vivobook_F512J_15.6__i3_1005G1_4GB_128GB_WIN10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 78.200$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS Vivobook F512J 15.6" i3 1005G1 4GB 128GB WIN10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ZenBook_UX433FLC_14__i5_10210U_8GB_SSD_512GB_Optane_32GB_WIN10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 141.499$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX433FLC 14" i5 10210U 8GB SSD 512GB Optane 32GB WIN10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ZenBook_UX425EA_14__Core_i5_1135G7_8GB_SSD_512GB__WIN10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 143.699$</h4>
+                <a class="nombre_producto" href="#"p>Notebook ASUS ZenBook UX425EA 14" Core i5 1135G7 8GB SSD 512GB WIN10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_Gamer_ASUS_TUF_FX506_15.6__Core_i5_10300H_GTX_1650Ti_4GB_512GB_Win10_144Hz_.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 149.800$</h4>
+                <a class="nombre_producto" href="#">Notebook Gamer ASUS TUF FX506 15.6" Core i5 10300H GTX 1650Ti 4GB 512GB Win10 144Hz</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_Lenovo_IP_3_15__Core_i5-10300H_8GB_M.2_128GB_1TB_GTX_1650_WIN10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 154.000$</h4>
+                <a class="nombre_producto" href="#">Notebook Lenovo IP 3 15" Core i5-10300H 8GB M.2 128GB 1TB GTX 1650 WIN10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ZenBook_UX433_14__i5_10210U_8GB_SSD_512GB_FREE_DOS.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 163.900$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX433 14" i5 10210U 8GB SSD 512GB FREE DOS</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ROG_STRIX_G512LV_15.6__144Hz__i5-10300H_8GB_512Gb_NVMe_1650Ti_FreeDOS.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 166.499$</h4>
+                <a class="nombre_producto" href="#"p>Notebook ASUS ROG STRIX G512LV 15.6" 144Hz i5-10300H 8GB 512Gb NVMe 1650Ti FreeDOS</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ZenBook_UX425EA_14__Core_i7_1165G7_16GB_M.2_512GB__WIN10.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 174.699$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX425EA 14" Core i7 1165G7 16GB M.2 512GB WIN10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_HP_OMEN_15__i7_10750H_8GB_512GB_Optane_32GB_GF1650TI__W10H.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 193.800$</h4>
+                <a class="nombre_producto" href="#">Notebook HP OMEN 15" i7 10750H 8GB 512GB Optane 32GB GF1650TI W10H</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_TUF_FA506_15.6__144Hz_Ryzen_7_4800H_GTX1660Ti_6GB_DDR4_16GB__M.2_512GB_W10_.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 208.000$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS TUF FA506 15.6" 144Hz Ryzen 7 4800H GTX1660Ti 6GB DDR4 16GB M.2 512GB W10</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="card_productos">
+            <a href="#"><img src="../imagenes/notebook/Notebook_ASUS_ROG_ZEPHYRUS_14__WQHD__RYZEN_9_4900HS_16GB_1TB_NVMe_RTX_2060.jpg" alt=""></a>
+            <div class="contenido_productos">
+                <h4>precio : 295.200$</h4>
+                <a class="nombre_producto" href="#">Notebook ASUS ROG ZEPHYRUS 14" WQHD RYZEN 9 4900HS 16GB 1TB NVMe RTX 2060</a>
+                <a class="mas" href="#">ver producto</a>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------------------------footer--------------------------------------------------------------------------->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_categorias">
+                <p class="footer_title">marcas</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="https://www.aorus.com/es-ar/"
+                            target="_blank">aorus</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.asus.com/latin/"
+                            target="_blank">asus</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.adata.com/es/"
+                            target="_blank">adata</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.seagate.com/la/es/"
+                            target="_blank">seagate</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.crucial.com/products/gaming-memory"
+                            target="_blank">crusial</a></li>
+                </ul>
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">categorias</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">placas de video</a></li>
+                    <li><a class="footer_link footer_link--over" href="">procesadores</a></li>
+                    <li><a class="footer_link footer_link--over" href="">memorias</a></li>
+                    <li><a class="footer_link footer_link--over" href="">almacenamientos</a></li>
+                    <li><a class="footer_link footer_link--over" href="">refrigeracion</a></li>
+                </ul>
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">palabras mas buscadas</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">procesador amd</a></li>
+                    <li><a class="footer_link footer_link--over" href="">rgb</a></li>
+                    <li><a class="footer_link footer_link--over" href="">teclado mecanico</a></li>
+                    <li><a class="footer_link footer_link--over" href="">mause gamer</a></li>
+                    <li><a class="footer_link footer_link--over" href="">watercooling</a></li>
+                    <li><a class="footer_link footer_link--over" href="">placas de video Nvidia</a></li>
+                </ul>
+
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">ayuda</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">whatsapp</a></li>
+                    <li><a class="footer_link footer_link--over" href="">email</a></li>
+                    <li><a class="footer_link footer_link--over" href="">faq</a></li>
+                </ul>
+            </div>
+            <div class="footer_redescategorias">
+                <h4 class="footer_redestitle">seguinos en nuestras redes sociales</h4>
+                <div class="footer_redes">
+                    <ul>
+                        <li><a href="https://www.youtube.com/c/CoderHouse" target="_blank" class="youtube"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/coderhouse/" target="_blank" class="instagram"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/Coderhouse" target="_blank" class="facebook"><i
+                                    class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://mobile.twitter.com/coderhouse" target="_blank" class="twitter"><i
+                                    class="fab fa-twitter"></i></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

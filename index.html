@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d3b59df5b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="scss/style.css">
+    <meta name="description"
+        content="Este sitio web te da los mejores precios en componentes de computadora con envíos a toda Argentina">
+    <meta name="keywords" content="venta de hardware,venta de computadoras, gaming, tienda pc online">
+    <title>XTROUG GAMING</title>
+</head>
+
+<body>
+    <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
+    <header>
+        <a class="header_logo" href="">
+            <img src="imagenes/LOGO ORIGINAL.JPG" alt="">
+        </a>
+        <input type="checkbox" id="btn_menu">
+        <label class="boton" for="btn_menu"><i class="fas fa-bars"></i></label>
+        <nav class="menu">
+            <ul class="header_menu">
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">productos</a>
+                    <ul class="header_subitems">
+                        <div class="header_columnaDeNav">
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/micro procesador.html">micro
+                                            procesador</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/procesadorAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/procesadorIntel.html">intel</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/motherBoard.html">mother board</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/motherBoardAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/motherBoardIntel.html">intel</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/memoriaRam.html">memoria ram</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/memoriaRamPc.html">para pc</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/memoriaRamNotebook.html">para
+                                            notebook</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/placasDeVideo.html">placas de
+                                            video</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/procesadorAmd.html">amd
+                                            radeon</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/placasDeVideoNvidia.html">Nvidia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/almacenamiento.html">almacenamiento</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/discoRigidoHdd.html">disco rigido
+                                            hdd para pc</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/discoSolidoSsd.html">disco solido
+                                            ssd internos</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/pendrives.html">
+                                            pendrives</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/refrigeracion.html">refrigeracion</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/airColing.html">air
+                                            cooling</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/refrigeracionLiquida.html">water
+                                            cooling</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/pasta termica.html">pasta
+                                            termica</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/accesorios.html">accesorios</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/televisores.html">televisores</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/fuentes.html">fuente</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/fuentesSinCertificacion.html">sin
+                                            certificacion</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/fuente80PlusWhite.html">80 plus
+                                            white</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/fuente80PlusBronce.html">80 plus
+                                            bronce</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/fuente80plusGold.html">80 plus
+                                            gold</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/gabinete.html">gabinete</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/gabineteFullTower.html">full
+                                            tower</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/gabineteMidTower.html">mid tower</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/productos/gabineteMiniTower.html">mini
+                                            tower</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/productos/sillas.html">sillas</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">perifericos</a>
+                    <ul class="header_subitems">
+                        <div class="header_columnaDeNav">
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/teclado.html">teclado </a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/tecladoMecanico.html">teclado de
+                                            mecanico</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/tecladoMembrana.html">teclado de
+                                            membrana</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/comboTeclado.html">combo de
+                                            teclado</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/mause.html">mause</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mauseOptico.html">mause
+                                            optico</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mauseLaser.html">mause
+                                            laser</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/mausePad.html">pad</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mausePadSmall.html">pad small</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mausePadMidium.html">pad
+                                            medium</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/mausePadLarge.html">pad large</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/auriculares.html">auriculares</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/auricularesEstereo.html">estereos</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/auricularessurround.html">surround</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/microfonos.html">microfono</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="html/perifericos/monitor.html">monitor</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/monitor165hz.html">monito de
+                                            165hz</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/monitor144hz.html">monitor de
+                                            144hz</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="html/perifericos/monitorLed.html">monitor
+                                            led</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">combo actualizacion</a>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">notebooks</a></li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">arma tu pc</a></li>
+            </ul>
+
+        </nav>
+
+
+
+    </header>
+    <h2 class="pagina_titulos">Productos Mas Buscados</h2>
+    <div class="pagina_ProductosPromocionados">
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/logitech g502.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 5.299$</h4>
+                <p>Mouse Logitech G502 Gaming Hero High Performance Gaming RGB</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/teclado redragon k550.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 8.699$</h4>
+                <p>Teclado Gamer Redragon Yama K550 Outemu Purple Español Rgb</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/disco duro de 1 t.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 5.800$</h4>
+                <p>Disco Rigido 1tb Blue Wd Western Digital 64mb Mallweb</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/gigabyte b450.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 12.000$</h4>
+                <p>Motherboard Gigabyte Amd Ga-b450m Ds3h Am4 Ryzen B450 Ddr4</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/procesador intel i3.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 23.900$</h4>
+                <p>intel core i3 -9300 4.3ghz 8mb s.1151</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center ">
+            <div class="col-xl-7 col-sm-12 ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <a href="#">
+                                <img src="imagenes/PC-Gamer-CG-11_800.jpg" height="500"
+                                    class="d-block w-100 tamaño_carusel" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img src="imagenes/PC-Diseño-CG-03_800.jpg" height="500"
+                                    class="d-block w-100 tamaño_carusel" alt="...">
+                            </a>
+                        </div>
+                        <div class="carousel-item ">
+                            <a href="#">
+                                <img src="imagenes/PC-Streaming-cg-3_800.jpg" height="500"
+                                    class="d-block w-100 tamaño_carusel" alt="...">
+                            </a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="pagina_titulos">Pc Muy Buenas</h2>
+    <div class="pagina_ProductosPromocionados">
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/PC-Oficina-CG-04_800.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 40.499$</h4>
+                <p>PC Oficina | AMD Athlon 3000G - A320 - 8GB - 240GB SSD</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/PC-Diseño-CG-03_800.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 74.699$</h4>
+                <p>PC Diseño | Intel I3 10100F- B460M - 8GB - GT 1030- 240GB SSD - 1TB</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/PC-Gamer-CG-11_800.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 52.800$</h4>
+                <p>PC Principiante | AMD Ryzen 3 2200G - A320 - 8GB - 240GB SSD</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/PC-Streaming-cg-3_800.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 141.000$</h4>
+                <p>PC Streaming AMD Ryzen 5 3600XT - B450 - 16GB - RTX 2060 - 240GB SSD - 1TB</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+
+        </div>
+        <div class="pagina_card">
+            <a href="#"><img src="imagenes/pc intel core i3.jpg" alt=""></a>
+            <div class="card_contenido">
+                <h4>precio : 39.200$</h4>
+                <p>PC INTEL CORE I3 9100 - 8GB DDR4 1TB</p>
+                <a class="card_boton" href="#">ver producto</a>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------------------------footer--------------------------------------------------------------------------->
+    <footer>
+        <div class="footer_container">
+            <div class="footer_categorias">
+                <p class="footer_title">marcas</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="https://www.aorus.com/es-ar/"
+                            target="_blank">aorus</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.asus.com/latin/"
+                            target="_blank">asus</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.adata.com/es/"
+                            target="_blank">adata</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.seagate.com/la/es/"
+                            target="_blank">seagate</a></li>
+                    <li><a class="footer_link footer_link--over" href="https://www.crucial.com/products/gaming-memory"
+                            target="_blank">crusial</a></li>
+                </ul>
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">categorias</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">placas de video</a></li>
+                    <li><a class="footer_link footer_link--over" href="">procesadores</a></li>
+                    <li><a class="footer_link footer_link--over" href="">memorias</a></li>
+                    <li><a class="footer_link footer_link--over" href="">almacenamientos</a></li>
+                    <li><a class="footer_link footer_link--over" href="">refrigeracion</a></li>
+                </ul>
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">palabras mas buscadas</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">procesador amd</a></li>
+                    <li><a class="footer_link footer_link--over" href="">rgb</a></li>
+                    <li><a class="footer_link footer_link--over" href="">teclado mecanico</a></li>
+                    <li><a class="footer_link footer_link--over" href="">mause gamer</a></li>
+                    <li><a class="footer_link footer_link--over" href="">watercooling</a></li>
+                    <li><a class="footer_link footer_link--over" href="">placas de video Nvidia</a></li>
+                </ul>
+
+            </div>
+            <div class="footer_categorias">
+                <p class="footer_title">ayuda</p>
+                <ul>
+                    <li><a class="footer_link footer_link--over" href="">whatsapp</a></li>
+                    <li><a class="footer_link footer_link--over" href="">email</a></li>
+                    <li><a class="footer_link footer_link--over" href="">faq</a></li>
+                </ul>
+            </div>
+            <div class="footer_redescategorias">
+                <h4 class="footer_redestitle">seguinos en nuestras redes sociales</h4>
+                <div class="footer_redes">
+                    <ul>
+                        <li><a href="https://www.youtube.com/c/CoderHouse" target="_blank" class="youtube"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/coderhouse/" target="_blank" class="instagram"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/Coderhouse" target="_blank" class="facebook"><i
+                                    class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://mobile.twitter.com/coderhouse" target="_blank" class="twitter"><i
+                                    class="fab fa-twitter"></i></i></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
