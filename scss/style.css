@@ -854,30 +854,53 @@ fieldset form .TextRegistro {
   display: flex;
 }
 
-.container_comboActualizacion {
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.container_comboActualizacion .padding_comboActualizacion {
-  padding: 0 15px;
-  margin-top: 30px;
-}
-
-.container_comboActualizacion .padding_comboActualizacion .row_comboActualizacion {
+.container_combo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.container_comboActualizacion .padding_comboActualizacion .row_comboActualizacion .componentes_comboactualizacion {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: #e7eaec;
-  padding: 0 30px;
+.container_combo .contenedor_combo {
+  background-color: grey;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.container_combo .contenedor_combo .contenido_combo {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.container_combo .contenedor_combo .contenido_combo img {
+  width: 100px;
+  height: 100px;
+}
+
+.container_combo .eleccion_tipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container_combo .eleccion_tipo img {
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+
+.container_combo .eleccion_tipo img .texto_combo {
+  text-align: center;
+}
+
+.container_combo .eleccion_tipo .eleccion_procesadores {
+  margin: 80px;
+  border: 1px solid black;
+  padding: 10px 70px;
 }
 /*# sourceMappingURL=style.css.map */
