@@ -15,15 +15,44 @@
 <body>
     <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
     <header>
+        
+
+        <div>
+            <button class="btn">
+                <i class="fas fa-cart-plus carrito"></i>
+            </button>
+        </div>
         <a class="header_logo" href="">
             <img src="../imagenes/LOGO ORIGINAL.JPG" alt="">
         </a>
-
         <input type="checkbox" id="btn_menu">
-        <label class="boton" for="btn_menu"><i class="fas fa-bars"></i></label>
+        <label class="boton" for="btn_menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <input type="checkbox" id="btn_buscar">
+        <label class="boton_two" for="btn_buscar">
+            <i class="fas fa-search"></i>
+        </label>
+        <div class="buscar">
+            <div class="lugar">
+                <input type="search" class="busacar_texto" placeholder="Buscar aqui">
+            <button class="btn boton_lupa">
+                <i class="fas fa-search"></i>
+            </button>
+            </div>
+
+            
+        </div>
+        
+
+
+
         <nav class="menu">
             <ul class="header_menu">
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">productos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../index.html">productos
+                        <span class="fa fa-plus"></span>
+                    </a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -148,7 +177,7 @@
                         </div>
                     </ul>
                 </li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="Perifericos.html">perifericos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../index.html">perifericos</a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -184,7 +213,7 @@
                                             href="perifericos/mausePadSmall.html">pad small</a>
                                     </li>
                                     <li><a class="header_subitemsproductos header_subitems--over"
-                                            href="html/perifericos/mausePadMidium.html">pad
+                                            href="perifericos/mausePadMidium.html">pad
                                             medium</a></li>
                                     <li><a class="header_subitemsproductos header_subitems--over"
                                             href="perifericos/mausePadLarge.html">pad large</a>

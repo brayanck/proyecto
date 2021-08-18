@@ -15,15 +15,44 @@
 <body> 
     <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
     <header>
+        
+
+        <div>
+            <button class="btn">
+                <i class="fas fa-cart-plus carrito"></i>
+            </button>
+        </div>
         <a class="header_logo" href="">
             <img src="../imagenes/LOGO ORIGINAL.JPG" alt="">
         </a>
-
         <input type="checkbox" id="btn_menu">
-        <label class="boton" for="btn_menu"><i class="fas fa-bars"></i></label>
+        <label class="boton" for="btn_menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <input type="checkbox" id="btn_buscar">
+        <label class="boton_two" for="btn_buscar">
+            <i class="fas fa-search"></i>
+        </label>
+        <div class="buscar">
+            <div class="lugar">
+                <input type="search" class="busacar_texto" placeholder="Buscar aqui">
+            <button class="btn boton_lupa">
+                <i class="fas fa-search"></i>
+            </button>
+            </div>
+
+            
+        </div>
+        
+
+
+
         <nav class="menu">
             <ul class="header_menu">
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">productos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../index.html">productos
+                        <span class="fa fa-plus"></span>
+                    </a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -148,7 +177,7 @@
                         </div>
                     </ul>
                 </li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="Perifericos.html">perifericos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../index.html">perifericos</a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -184,7 +213,7 @@
                                             href="perifericos/mausePadSmall.html">pad small</a>
                                     </li>
                                     <li><a class="header_subitemsproductos header_subitems--over"
-                                            href="html/perifericos/mausePadMidium.html">pad
+                                            href="perifericos/mausePadMidium.html">pad
                                             medium</a></li>
                                     <li><a class="header_subitemsproductos header_subitems--over"
                                             href="perifericos/mausePadLarge.html">pad large</a>
@@ -233,7 +262,6 @@
 
         </nav>
     </header>
-    <br>
     <!----------------------------pagina-------------------------------->
     <div class="conteiner_productos">
         <div class="card_productos">
@@ -241,7 +269,9 @@
             <div class="contenido_productos">
                 <h4>precio : 54.499$</h4>
                 <a class="nombre_producto" href="#">Notebook Lenovo 14" AMD Pro A4-4350B 4GB 500GB DOS </a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -250,7 +280,9 @@
             <div class="contenido_productos">
                 <h4>precio : 71.599$</h4>
                 <a class="nombre_producto" href="#">Notebook HP 14" Ryzen 3 3250U 4GB 1TB Win10 US</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -259,7 +291,9 @@
             <div class="contenido_productos">
                 <h4>precio : 76.800$</h4>
                 <a class="nombre_producto" href="#">Notebook HP 240 14" Core i3-1005G1 4GB 1TB FreeDos US</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -268,7 +302,9 @@
             <div class="contenido_productos">
                 <h4>precio : 78.000$</h4>
                 <a class="nombre_producto" href="#">Notebook HDC HY 15.6"FHD Core i3 1005G 8GB SSD 256GB Win 10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -277,7 +313,9 @@
             <div class="contenido_productos">
                 <h4>precio : 78.200$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS Vivobook F512J 15.6" i3 1005G1 4GB 128GB WIN10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -285,7 +323,9 @@
             <div class="contenido_productos">
                 <h4>precio : 141.499$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX433FLC 14" i5 10210U 8GB SSD 512GB Optane 32GB WIN10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -294,7 +334,9 @@
             <div class="contenido_productos">
                 <h4>precio : 143.699$</h4>
                 <a class="nombre_producto" href="#"p>Notebook ASUS ZenBook UX425EA 14" Core i5 1135G7 8GB SSD 512GB WIN10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -303,7 +345,9 @@
             <div class="contenido_productos">
                 <h4>precio : 149.800$</h4>
                 <a class="nombre_producto" href="#">Notebook Gamer ASUS TUF FX506 15.6" Core i5 10300H GTX 1650Ti 4GB 512GB Win10 144Hz</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -312,7 +356,9 @@
             <div class="contenido_productos">
                 <h4>precio : 154.000$</h4>
                 <a class="nombre_producto" href="#">Notebook Lenovo IP 3 15" Core i5-10300H 8GB M.2 128GB 1TB GTX 1650 WIN10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -321,7 +367,9 @@
             <div class="contenido_productos">
                 <h4>precio : 163.900$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX433 14" i5 10210U 8GB SSD 512GB FREE DOS</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -329,7 +377,9 @@
             <div class="contenido_productos">
                 <h4>precio : 166.499$</h4>
                 <a class="nombre_producto" href="#"p>Notebook ASUS ROG STRIX G512LV 15.6" 144Hz i5-10300H 8GB 512Gb NVMe 1650Ti FreeDOS</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -337,7 +387,9 @@
             <div class="contenido_productos">
                 <h4>precio : 174.699$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS ZenBook UX425EA 14" Core i7 1165G7 16GB M.2 512GB WIN10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -345,7 +397,9 @@
             <div class="contenido_productos">
                 <h4>precio : 193.800$</h4>
                 <a class="nombre_producto" href="#">Notebook HP OMEN 15" i7 10750H 8GB 512GB Optane 32GB GF1650TI W10H</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -353,7 +407,9 @@
             <div class="contenido_productos">
                 <h4>precio : 208.000$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS TUF FA506 15.6" 144Hz Ryzen 7 4800H GTX1660Ti 6GB DDR4 16GB M.2 512GB W10</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -362,7 +418,10 @@
             <div class="contenido_productos">
                 <h4>precio : 295.200$</h4>
                 <a class="nombre_producto" href="#">Notebook ASUS ROG ZEPHYRUS 14" WQHD RYZEN 9 4900HS 16GB 1TB NVMe RTX 2060</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
+                
             </div>
         </div>
     </div>

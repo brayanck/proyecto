@@ -18,14 +18,47 @@
 <body>
     <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
     <header>
+        
+
+        <div class="">
+            <button class="btn">
+                <i class="fas fa-cart-plus carrito"></i>
+            </button>
+        </div>
         <a class="header_logo" href="">
             <img src="imagenes/LOGO ORIGINAL.JPG" alt="">
         </a>
+
+
+
         <input type="checkbox" id="btn_menu">
-        <label class="boton" for="btn_menu"><i class="fas fa-bars"></i></label>
+        <label class="boton" for="btn_menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <input type="checkbox" id="btn_buscar">
+        <label class="boton_two" for="btn_buscar">
+            <i class="fas fa-search"></i>
+        </label>
+        <div class="buscar">
+            <div class="lugar">
+                <input type="search" class="busacar_texto" placeholder="Buscar aqui">
+            <button class="btn boton_lupa">
+                <i class="fas fa-search"></i>
+            </button>
+            </div>
+
+            
+        </div>
+        
+
+
+
         <nav class="menu">
             <ul class="header_menu">
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">productos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="index.html">productos
+                        <span class="fa fa-plus"></span>
+                    </a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -150,7 +183,7 @@
                         </div>
                     </ul>
                 </li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">perifericos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="index.html">perifericos</a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
@@ -227,17 +260,15 @@
                         </div>
                     </ul>
                 </li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">combo actualizacion</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="html/ComboActualizacion.html">combo actualizacion</a>
                 </li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">notebooks</a></li>
-                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="">arma tu pc</a></li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="html/notebook.html">notebooks</a></li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="html/IniciarSesion.html">iniciar secion</a></li>
             </ul>
 
         </nav>
-
-
-
     </header>
+    
     <h2 class="pagina_titulos">Productos Mas Buscados</h2>
     <div class="pagina_ProductosPromocionados">
         <div class="pagina_card">

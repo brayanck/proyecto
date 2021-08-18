@@ -15,46 +15,90 @@
 <body> 
     <!--------------------------------------------------------------navegacion-------------------------------------------------------------------------->
     <header>
-        <a href="../../index.html">
-            <img src="../../imagenes/LOGO ORIGINAL.JPG" class="header_logo" alt="logo para volver al inicio">
+        
+
+        <div class="">
+            <button class="btn">
+                <i class="fas fa-cart-plus carrito"></i>
+            </button>
+        </div>
+        <a class="header_logo" href="">
+            <img src="../../imagenes/LOGO ORIGINAL.JPG" alt="">
         </a>
-        <input class=" form-control input_serch" type="search" placeholder="buscar aqui" aria-label="buscar">
-        <button class="header_boton" type="submit">Search</button>
-        <nav>
+
+
+
+        <input type="checkbox" id="btn_menu">
+        <label class="boton" for="btn_menu">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <input type="checkbox" id="btn_buscar">
+        <label class="boton_two" for="btn_buscar">
+            <i class="fas fa-search"></i>
+        </label>
+        <div class="buscar">
+            <div class="lugar">
+                <input type="search" class="busacar_texto" placeholder="Buscar aqui">
+            <button class="btn boton_lupa">
+                <i class="fas fa-search"></i>
+            </button>
+            </div>
+
+            
+        </div>
+        
+
+
+
+        <nav class="menu">
             <ul class="header_menu">
-                <li><a href="../Productos.html"
-                        class="header_linksDeNavegacion header_linksDeNavegacion--over">Productos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../../index.html">productos
+                        <span class="fa fa-plus"></span>
+                    </a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="micro procesador.html">micro
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="micro procesador.html">micro
                                             procesador</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="procesadorAmd.html">amd</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="procesadorIntel.html">intel</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="procesadorAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="procesadorIntel.html">intel</a>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="motherBoard.html">mother board</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="motherBoard.html">mother board</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="motherBoardAmd.html">amd</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="motherBoardIntel.html">intel</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="motherBoardAmd.html">amd</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="motherBoardIntel.html">intel</a>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="memoriaRam.html">memoria ram</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="memoriaRam.html">memoria ram</a>
                                     </li>
-                                    <><a class="header_subitemsproductos header_subitems--over" href="memoriaRamPc.html">para pc</a>
-                
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="memoriaRamNotebook.html">para
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="memoriaRamPc.html">para pc</a>
+                                    </li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="memoriaRamNotebook.html">para
                                             notebook</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="placasDeVideo.html">placas de
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="placasDeVideo.html">placas de
                                             video</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="procesadorAmd.html">amd
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="procesadorAmd.html">amd
                                             radeon</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="placasDeVideoNvidia.html">Nvidia</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="placasDeVideoNvidia.html">Nvidia</a>
                                     </li>
                                 </ul>
                             </div>
@@ -62,134 +106,163 @@
                                 <ul>
                                     <li><a class="header_subitemsTitulo header_subitems--over"
                                             href="almacenamiento.html">almacenamiento</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="discoRigidoHdd.html">disco rigido
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="discoRigidoHdd.html">disco rigido
                                             hdd para pc</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="discoSolidoSsd.html">disco solido
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="discoSolidoSsd.html">disco solido
                                             ssd internos</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="pendrives.html">
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="pendrives.html">
                                             pendrives</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="refrigeracion.html">refrigeracion</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="refrigeracion.html">refrigeracion</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="airColing.html">air
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="airColing.html">air
                                             cooling</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="refrigeracionLiquida.html">water
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="refrigeracionLiquida.html">water
                                             cooling</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="pasta termica.html">pasta
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="pasta termica.html">pasta
                                             termica</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="accesorios.html">accesorios</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="accesorios.html">accesorios</a>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="televisores.html">televisores</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="televisores.html">televisores</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
 
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="fuentes.html">fuente</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="fuentesSinCertificacion.html">sin
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="fuentes.html">fuente</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="fuentesSinCertificacion.html">sin
                                             certificacion</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="fuente80PlusWhite.html">80 plus
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="fuente80PlusWhite.html">80 plus
                                             white</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="fuente80PlusBronce.html">80 plus
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="fuente80PlusBronce.html">80 plus
                                             bronce</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="fuente80plusGold.html">80 plus
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="fuente80plusGold.html">80 plus
                                             gold</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="gabinete.html">gabinete</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="gabineteFullTower.html">full
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="gabinete.html">gabinete</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="gabineteFullTower.html">full
                                             tower</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="gabineteMidTower.html">mid tower</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="gabineteMidTower.html">mid tower</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="gabineteMiniTower.html">mini
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="gabineteMiniTower.html">mini
                                             tower</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="sillas.html">sillas</a></li>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="sillas.html">sillas</a></li>
                                 </ul>
                             </div>
                         </div>
                     </ul>
                 </li>
-                </div>
-                <li><a href="../Perifericos.html"
-                        class="header_linksDeNavegacion header_linksDeNavegacion--over">Perifericos</a>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../../index.html">perifericos</a>
                     <ul class="header_subitems">
                         <div class="header_columnaDeNav">
                             <div>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/teclado.html">teclado </a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/tecladoMecanico.html">teclado de
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/teclado.html">teclado </a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/tecladoMecanico.html">teclado de
                                             mecanico</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/tecladoMembrana.html">teclado de
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/tecladoMembrana.html">teclado de
                                             membrana</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/comboTeclado.html">combo de
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/comboTeclado.html">combo de
                                             teclado</a></li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/mause.html">mause</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/mauseOptico.html">mause
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/mause.html">mause</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/mauseOptico.html">mause
                                             optico</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/mauseLaser.html">mause
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/mauseLaser.html">mause
                                             laser</a></li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/mausePad.html">pad</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/mausePadSmall.html">pad small</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/mausePad.html">pad</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/mausePadSmall.html">pad small</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/mausePadMidium.html">pad
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/mausePadMidium.html">pad
                                             medium</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/mausePadLarge.html">pad large</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/mausePadLarge.html">pad large</a>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/auriculares.html">auriculares</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/auriculares.html">auriculares</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/auricularesEstereo.html">estereos</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/auricularesEstereo.html">estereos</a>
                                     </li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/auricularessurround.html">surround</a>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/auricularessurround.html">surround</a>
                                     </li>
                                 </ul>
                             </div>
                             <div>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/microfonos.html">microfono</a>
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/microfonos.html">microfono</a>
                                     </li>
                                 </ul>
                                 <ul>
-                                    <li><a class="header_subitemsTitulo header_subitems--over" href="../perifericos/monitor.html">monitor</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/monitor165hz.html">monito de
+                                    <li><a class="header_subitemsTitulo header_subitems--over"
+                                            href="../perifericos/monitor.html">monitor</a></li>
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/monitor165hz.html">monito de
                                             165hz</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/monitor144hz.html">monitor de
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/monitor144hz.html">monitor de
                                             144hz</a></li>
-                                    <li><a class="header_subitemsproductos header_subitems--over" href="../perifericos/monitorLed.html">monitor
+                                    <li><a class="header_subitemsproductos header_subitems--over"
+                                            href="../perifericos/monitorLed.html">monitor
                                             led</a></li>
                                 </ul>
                             </div>
                         </div>
+                    </ul>
                 </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../ComboActualizacion.html">combo actualizacion</a>
+                </li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../notebook.html">notebooks</a></li>
+                <li><a class="header_linksDeNavegacion header_linksDeNavegacion--over" href="../IniciarSesion.html">iniciar secion</a></li>
             </ul>
-            <li><a href="../error404.html" class="header_linksDeNavegacion header_linksDeNavegacion--over">Armar Tu
-                    Pc</a></li>
-            <li><a href="../ComboActualizacion.html"
-                    class="header_linksDeNavegacion header_linksDeNavegacion--over">Combo Actualizacion</a></li>
-            <li><a href="../notebook.html"
-                    class="header_linksDeNavegacion header_linksDeNavegacion--over">Notebook</a></li>
-            </ul>
-            <div>
-                <ul>
-                    <li><a href="../IniciarSesion.html" class="header_iniciarSecion">Iniciar Sesion</a>
-                    </li>
-                </ul>
-            </div>  
+
         </nav>
     </header>
     <br>
@@ -201,7 +274,9 @@
             <div class="contenido_productos">
                 <h4>precio : 7.200$</h4>
                 <a class="nombre_producto" href="#">Mother Gigabyte H310M-DS2 SERIE/PARALELO S1151</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -210,7 +285,9 @@
             <div class="contenido_productos">
                 <h4>precio : 7.900$</h4>
                 <a class="nombre_producto" href="#">Mother ASUS PRIME B365M-A 1151 9th Gen HMDI M.2</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -219,7 +296,9 @@
             <div class="contenido_productos">
                 <h4>precio : 8.999$</h4>
                 <a class="nombre_producto" href="#">Mother Gigabyte B365M DS3H 1151 9th Gen</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -228,7 +307,9 @@
             <div class="contenido_productos">
                 <h4>precio : 12.399$</h4>
                 <a class="nombre_producto" href="#">Mother ASUS PRIME H410M-E Socket 1200 10th Gen</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -237,7 +318,9 @@
             <div class="contenido_productos">
                 <h4>precio : 12.800$</h4>
                 <a class="nombre_producto" href="#">Mother Gigabyte B365M AORUS ELITE 1151 9th</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
         <div class="card_productos">
@@ -245,7 +328,9 @@
             <div class="contenido_productos">
                 <h4>precio : 38.700$</h4>
                 <a class="nombre_producto" href="#">Mother ASUS PRIME Z590-A ATX S1200 10th/11th Gen</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -254,7 +339,9 @@
             <div class="contenido_productos">
                 <h4>precio : 40.500$</h4>
                 <a class="nombre_producto" href="#">Mother Gigabyte Z590 Vision G Socket 1200 10th Gen</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -263,7 +350,9 @@
             <div class="contenido_productos">
                 <h4>precio : 51.300$</h4>
                 <a class="nombre_producto" href="#">Mother MSI MPG Z590 Gaming Carbon Wifi 11th Gen S1200</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
 
         </div>
@@ -272,7 +361,9 @@
             <div class="contenido_productos">
                 <h4>precio : 68.320$</h4>
                 <a class="nombre_producto" href="#">Mother ASUS Z590 ROG MAXIMUS XIII HERO WIFI 11th gen s1200</a>
-                <a class="mas" href="#">ver producto</a>
+                <div>
+                    <a class="mas" href="#">ver producto</a>
+                </div>
             </div>
         </div>
 
@@ -316,7 +407,8 @@
                     <li><a class="footer_link footer_link--over" href="">watercooling</a></li>
                     <li><a class="footer_link footer_link--over" href="">placas de video Nvidia</a></li>
                 </ul>
-            </div> 
+
+            </div>
             <div class="footer_categorias">
                 <p class="footer_title">ayuda</p>
                 <ul>
@@ -325,8 +417,8 @@
                     <li><a class="footer_link footer_link--over" href="">faq</a></li>
                 </ul>
             </div>
-            <div class="footer_categorias">
-                <h4 class="footer_title">seguinos en nuestras redes sociales</h4>
+            <div class="footer_redescategorias">
+                <h4 class="footer_redestitle">seguinos en nuestras redes sociales</h4>
                 <div class="footer_redes">
                     <ul>
                         <li><a href="https://www.youtube.com/c/CoderHouse" target="_blank" class="youtube"><i
