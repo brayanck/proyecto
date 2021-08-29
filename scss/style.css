@@ -14,6 +14,12 @@
           box-sizing: border-box;
 }
 
+.container_es {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header {
   background-color: black;
   width: 100%;
@@ -26,6 +32,12 @@ header li {
 header .header_logo {
   width: 10%;
   height: 50%;
+}
+
+header .container_carrito {
+  margin-left: 75%;
+  margin-top: 50px;
+  position: absolute;
 }
 
 header #btn_menu {
@@ -70,8 +82,8 @@ header .carrito {
   display: flex;
   color: white;
   font-size: 30px;
+  margin-left: 80%;
   position: absolute;
-  margin-left: 85%;
 }
 
 header li {
@@ -195,11 +207,11 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
     text-align: center;
   }
   img {
-    width: 40%;
+    width: 100%;
     height: 120px;
   }
   .boton {
-    margin-left: 75%;
+    margin-left: 70%;
     margin-top: -80px;
     position: absolute;
     font-size: 30px;
@@ -212,7 +224,7 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
             flex-direction: column;
   }
   .boton_two {
-    margin-left: 65%;
+    margin-left: 57%;
     margin-top: -80px;
     position: absolute;
     font-size: 30px;
@@ -222,15 +234,8 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
     height: 400px;
     width: 100%;
   }
-  .carrito {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    margin-left: 80%;
-    margin-top: 65px;
+  .container_logo {
+    width: 50%;
   }
 }
 
@@ -295,6 +300,15 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
 .pagina_ProductosPromocionados img {
   height: 300px;
   width: 100%;
+}
+
+.whatsapp {
+  right: 5px;
+  position: fixed;
+  bottom: 5px;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
 }
 
 @media (max-width: 768px) {
