@@ -1,6 +1,8 @@
 .container_combo{
     display : flex;
     justify-content: space-around;
+    text-align: center;
+    
     .contenedor_combo{
         background-color: grey;
         margin: 20px;
@@ -18,10 +20,11 @@
     }
     .eleccion_tipo{
         display: flex;
+        justify-content: center;
         img{
             width: 100px;
             height: 100px;
-            margin: 50px;
+            margin: 40px;
             .texto_combo{
                 text-align: center;
             }
@@ -29,7 +32,15 @@
         .eleccion_procesadores{
             margin: 80px;
             border: 1px solid black;
-            padding: 10px 70px;
+            padding: 10px 30px;
         }
+    }
+}
+@media (max-width: 768px){
+    .contenedor_combo{
+        display: none;
+    }
+    .eleccion_tipo{
+        flex-direction: column;
     }
 }

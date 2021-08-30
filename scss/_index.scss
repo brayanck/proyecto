@@ -5,6 +5,28 @@
     text-align: center;
     margin-top:40px;
 }
+.contenedor_iconos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    .container_iconos:hover{
+        transform: translateY(-15px);
+    }
+    .link_iconos{
+        text-decoration: none;
+        color:black;
+        
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    i{
+        font-size: 150px;
+    }
+    
+}
 .pagina_ProductosPromocionados {
     width: 90%;
     display: flex;
@@ -112,5 +134,8 @@
                 height: 100%;
                 width: 100%;
             }
+    }
+    .contenedor_iconos{
+        display: none;
     }
 }
