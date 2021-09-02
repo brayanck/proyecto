@@ -2,6 +2,7 @@
     text-align: center;
     font-size:80px;
     color: red;
+    text-decoration: underline;
 }
 .conteiner_productos{
     display: flex;
@@ -63,7 +64,7 @@
 @media (max-width: 768px){
     .producto__titulos{
         text-align: center;
-        font-size:80px;
+        font-size:40px;
         color: red;
     }
     .conteiner_productos{

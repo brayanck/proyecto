@@ -243,6 +243,8 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
   color: red;
   text-align: center;
   margin-top: 40px;
+  text-decoration: underline;
+  font-size: 50px;
 }
 
 .contenedor_iconos {
@@ -707,6 +709,7 @@ fieldset form .TextRegistro {
   text-align: center;
   font-size: 80px;
   color: red;
+  text-decoration: underline;
 }
 
 .conteiner_productos {
@@ -786,7 +789,7 @@ fieldset form .TextRegistro {
 @media (max-width: 768px) {
   .producto__titulos {
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     color: red;
   }
   .conteiner_productos {
@@ -893,13 +896,42 @@ fieldset form .TextRegistro {
   text-decoration: underline;
 }
 
-.contenido_error .imagen_error {
-  width: 500px;
-  height: 500px;
-  margin: 100px 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media (max-width: 768px) {
+  .contenido_error {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contenido_error .error_title {
+    font-size: 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenido_error p {
+    font-size: 40px;
+  }
+  .contenido_error button {
+    color: white;
+    background: red;
+    width: 200px;
+    margin-left: auto;
+  }
+  .contenido_error .imagen_error2 {
+    width: 70%;
+    height: 70%;
+    margin: 20px 20px;
+  }
 }
 
 .container_combo {
