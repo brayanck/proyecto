@@ -245,6 +245,7 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
   margin-top: 40px;
   text-decoration: underline;
   font-size: 50px;
+  font-family: 'Shrikhand', cursive;
 }
 
 .contenedor_iconos {
@@ -304,6 +305,7 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
 .pagina_ProductosPromocionados .pagina_card .card_contenido {
   padding: 15px;
   text-align: center;
+  font-family: 'Biryani', sans-serif;
 }
 
 .pagina_ProductosPromocionados .pagina_card .card_contenido .card_boton {
@@ -710,6 +712,7 @@ fieldset form .TextRegistro {
   font-size: 80px;
   color: red;
   text-decoration: underline;
+  font-family: 'Shrikhand', cursive;
 }
 
 .conteiner_productos {
@@ -758,6 +761,7 @@ fieldset form .TextRegistro {
 
 .conteiner_productos .card_productos .nombre_producto {
   color: black;
+  font-family: 'Biryani', sans-serif;
 }
 
 .conteiner_productos .card_productos .nombre_producto:hover {

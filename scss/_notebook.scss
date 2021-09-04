@@ -3,6 +3,7 @@
     font-size:80px;
     color: red;
     text-decoration: underline;
+    font-family: 'Shrikhand', cursive;
 }
 .conteiner_productos{
     display: flex;
@@ -37,6 +38,7 @@
         }
         .nombre_producto{
             color: black;
+            font-family: 'Biryani', sans-serif;
         }
         .nombre_producto:hover {
             color: red;
