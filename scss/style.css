@@ -348,6 +348,7 @@ header li:hover > ul .header_columnaDeNav .header_subitemsTitulo {
   .pagina_titulos {
     color: red;
     margin: auto auto;
+    font-size: 25px;
   }
   .pagina_ProductosPromocionados {
     width: 80%;
@@ -793,7 +794,7 @@ fieldset form .TextRegistro {
 @media (max-width: 768px) {
   .producto__titulos {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: red;
   }
   .conteiner_productos {
@@ -977,9 +978,6 @@ fieldset form .TextRegistro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .container_combo .eleccion_tipo img {
@@ -993,7 +991,7 @@ fieldset form .TextRegistro {
 }
 
 .container_combo .eleccion_tipo .eleccion_procesadores {
-  margin: 80px;
+  margin: 10px;
   border: 1px solid black;
   padding: 10px 30px;
 }
@@ -1007,6 +1005,27 @@ fieldset form .TextRegistro {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .eleccion_tipo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .eleccion_tipo img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+  }
+  .eleccion_tipo img .texto_combo {
+    text-align: center;
+  }
+  .eleccion_tipo .eleccion_procesadores {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px 30px;
   }
 }
 
