@@ -25,3 +25,11 @@
         }
     }
 }
+@media (max-width: 768px){
+    .contenedores_links{
+        flex-direction: column;
+    }
+    .conrainer_productos{
+        width:85%;
+    }
+}

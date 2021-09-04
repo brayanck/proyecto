@@ -793,7 +793,7 @@ fieldset form .TextRegistro {
 @media (max-width: 768px) {
   .producto__titulos {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: red;
   }
   .conteiner_productos {
@@ -947,6 +947,12 @@ fieldset form .TextRegistro {
   text-align: center;
 }
 
+.container_combo a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Biryani', sans-serif;
+}
+
 .container_combo .contenedor_combo {
   background-color: grey;
   margin: 20px;
@@ -1038,5 +1044,17 @@ fieldset form .TextRegistro {
 
 .conrainer_productos .contenedores_links a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contenedores_links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .conrainer_productos {
+    width: 85%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
