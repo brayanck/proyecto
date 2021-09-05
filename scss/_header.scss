@@ -148,6 +148,9 @@ header{
         }
         .menu ul{
             flex-direction: column;
+            .header_subitems{
+                display: none;
+            }
         }
         #btn_menu:checked ~ .menu{
             margin: 0;
